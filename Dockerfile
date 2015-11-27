@@ -2,8 +2,9 @@
 FROM docker.io/ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
-nagios \
-appdynamics \
+cpuguy83/nagios \
+appdynamics/lemming \
+angelx/coco-splunk-http-forwarder
 
 
 
