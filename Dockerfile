@@ -7,5 +7,7 @@ FROM angelx/coco-splunk-http-forwarder
 RUN apt-get update && apt-get install -y \
 openjdk-7-jre
 
+test
+
 
 
