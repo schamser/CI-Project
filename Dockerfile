@@ -5,7 +5,7 @@ FROM appdynamics/lemming
 FROM angelx/coco-splunk-http-forwarder
 
 RUN apt-get update && apt-get install -y \
-openjdk-7-jre
+openjdk-7-jre \
 openssh-server
 
 RUN adduser jenkins
