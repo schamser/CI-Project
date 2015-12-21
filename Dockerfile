@@ -4,7 +4,7 @@ FROM cpuguy83/nagios
 FROM appdynamics/lemming
 FROM angelx/coco-splunk-http-forwarder
 
-RUN apt-get update && apt-get install -y -d \
+RUN apt-get install -y -d \
 openjdk-7-jre \
 openssh-server
 
