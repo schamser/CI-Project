@@ -4,7 +4,7 @@ FROM cpuguy83/nagios
 FROM appdynamics/lemming
 FROM angelx/coco-splunk-http-forwarder
 
-RUN apt-get install -y -d \
+RUN docker run exec apt-get install -y wget  \
 openjdk-7-jre \
 openssh-server
 
